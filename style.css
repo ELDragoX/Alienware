@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+  display:flex;
+  z-index:1;
+  justify-content:right;
+}
+.nav-link{
+  display:inline-flex;
+  position:relative;
+  margin-right:0;
+
+}
+header a{
+  margin:0 10 0 10;
+
+}
+header img{
+  margin-right:200;
+  right:10rem;
+  
+  top:15;
+}
+
+.block-1{
+  background:linear-gradient(90deg,cyan,white);
+  
+}
+.block-2{
+  background:linear-gradient(90deg,red,white);
+  ;
+  
+}
+.block-3{
+  background:linear-gradient(90deg,purple,white);
+  ;
+  
+}
+.price-section div:not(.flex-box){
+border-radius:10%;
+  margin:0.5rem;
+  font-size:0.5rem;
+  width:200px;
+  height:250px;
+  min-height:250px;
+  min-width:200px;
+  border: 2px solid white;
+  font-family:Comic Sans MS,sans-serif;
+  display:inline-flex;
+  flex-wrap:wrap;
+}
+.flex-box{
+  margin-left:auto;
+  margin-right:auto;
+  border:2px solid grey;
+}
+.price-section h2{
+text-transform:uppercase;
+font-style:italic;
+font-family:Arial;
+position:relative;
+text-align:center;
+color:black;
+
+
+
+}
+.lap-img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+ .lap1,.lap2,.lap3{
+   background-color:orange;
+   display:block;
+   margin:0 auto;
+   border:2px solid orange;
+
+ }
+ .price-section{
+   display:flex;
+   flex-wrap:nowrap;
+   
+ }
+.div-line{
+  width:100%;
+  height:10px;
+background-color:grey;
+}
+section{
+  margin:10px;
+  padding-top:30px;
+
+}
+main{
+  margin-top:70px;
+}
+video{
+  z-index:-1;
+  display:block;
+  margin: auto auto 50 ;
+}
+h2{
+  text-align:center;
+  color:white;
+}
+.user input{
+  display:block; margin:0 auto 10 auto;
+}
+.user,.demo,.price-section{
+  border:2px solid;
+}
+
+body{
+  min-width:600px;
+  background-color:black;
+}
